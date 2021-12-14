@@ -15,3 +15,10 @@
     font-size: 13px;
     font-weight: 600;
 }
+.shop_look_product {
+    margin: 0;
+    position: absolute;
+    right: 23%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(62%);
+}
