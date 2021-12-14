@@ -10,8 +10,11 @@
         </div>
         <div class="shop_look_product">
             {% for product in section.settings.collection.products %}   
-              <p class="shop_look_product_title"> {{ product.title }}</p>
-              <p class="shop_look_product_price"> {{ product.price }}</p>
+            <div class="shop_look_right_block">
+                <p class="shop_look_product_title"> {{ product.title }}</p>
+                <p class="shop_look_product_price"> {{ product.price }}</p>
+            </div>
+              
             {% endfor %} 
         </div>
     </div>

@@ -1,3 +1,9 @@
 .shop_look__header {
     text-align: center;
 }
+.shop_look {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 55%;
+    margin: 0 auto;
+}
