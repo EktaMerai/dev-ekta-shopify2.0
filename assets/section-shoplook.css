@@ -7,3 +7,11 @@
     width: 55%;
     margin: 0 auto;
 }
+.shop_look_right_block {
+    display: flex;
+    justify-content: space-between;
+}
+.shop_look_product_title {
+    font-size: 13px;
+    font-weight: 600;
+}

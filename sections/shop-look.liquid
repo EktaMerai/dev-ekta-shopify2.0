@@ -12,7 +12,7 @@
             {% for product in section.settings.collection.products %}   
             <div class="shop_look_right_block">
                 <p class="shop_look_product_title"> {{ product.title }}</p>
-                <p class="shop_look_product_price"> {{ product.price }}</p>
+                <p class="shop_look_product_price"> {{ product.price | money}}</p>
             </div>
               
             {% endfor %} 
