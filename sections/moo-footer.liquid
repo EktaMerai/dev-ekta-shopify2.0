@@ -1,8 +1,8 @@
-<footer>
+<footer class="moo-footer">
     <div>
-        <a href="">
-            
-        </a>
+        {%for link in section.settings.footer_menu.links%}
+         <a href="{{ link.url }}">{{ link.title }}</a>
+        {%endfor%}
     </div>
 </footer>
 {% schema %}

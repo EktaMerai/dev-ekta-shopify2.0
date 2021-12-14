@@ -360,6 +360,22 @@
                 <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
+            {% when 'social' %}
+               <ul class="social-sharing">
+                 <li><a href="{{ settings.social_facebook_link }}" >
+                    {% render 'icon-facebook.liquid' %}
+                   <span class="social-sharing__title">Facebook</span>
+                    </a>
+                  </li>
+                 <li><a href="{{ settings.social_pinterest_link }}">
+                  {% render 'icon-pinterest.liquid'%} 
+                  <span>Pin IT</span> 
+                  </a>
+                </li>
+                 <li><a href="{{ settings.social_twitter_link }}">
+                  {% render 'icon-twitter.liquid'%}  
+                  <span>Twitter</span></a></li>
+               </ul>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -805,6 +821,17 @@
         {
           "type": "paragraph",
           "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Social"
         }
       ]
     }
