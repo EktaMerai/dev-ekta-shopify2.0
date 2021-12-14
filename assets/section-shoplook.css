@@ -61,19 +61,21 @@
         left: 20%;
     }
     .imgs_2 {
-        position: unset;
-        left: unset;
+        position: relative;
+        left: 1%;
+        background-color: transparent;
     }
     .imgs_3 {
-        position: unset;
-        left: unset;
-        bottom: unset;
-        z-index: unset;
+        position: absolute;
+        left: 24%;
+        bottom: 8%;
+        z-index: 3;
+        background-color: transparent;
     }
     .imgs_4 {
-        position: unset;
-        left: unset;
-        top: unset;
+        position: relative;
+        left: 61%;
+        top: -7%;
     }
     .shop_look{
         width: 100%;
