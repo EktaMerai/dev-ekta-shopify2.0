@@ -23,3 +23,25 @@
     -ms-transform: translateY(-50%);
     transform: translateY(62%);
 }
+.imgs_1 {
+    position: relative;
+    bottom: -50%;
+    left: 20%;
+}
+.imgs_2 {
+    position: relative;
+    left: 1%;
+    background-color: transparent;
+}
+.imgs_3 {
+    position: absolute;
+    left: 24%;
+    bottom: 8%;
+    z-index: 3;
+    background-color: transparent;
+}
+.imgs_4 {
+    position: relative;
+    left: 61%;
+    top: -7%;
+}
