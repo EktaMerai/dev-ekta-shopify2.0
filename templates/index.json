@@ -2,105 +2,128 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Talk about your brand",
+            "heading_size": "medium"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
         "button"
-      ]
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "collage": {
-      "type": "collage",
+    "163945244944ece7dd": {
+      "type": "hero",
       "blocks": {
-        "video": {
-          "type": "video"
+        "5f00c5d6-8cc5-4a52-92e4-3168af6b6cfc": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
+          }
         },
-        "product": {
-          "type": "product"
+        "21f2ce59-2ff7-4b38-ae58-b87476e178a0": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
         },
-        "collection": {
-          "type": "collection"
+        "6b9cd6c0-159d-4dc1-a9e8-8ef3d7a9e172": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
+        "5f00c5d6-8cc5-4a52-92e4-3168af6b6cfc",
+        "21f2ce59-2ff7-4b38-ae58-b87476e178a0",
+        "6b9cd6c0-159d-4dc1-a9e8-8ef3d7a9e172"
+      ],
+      "settings": {
+        "hero_title": "vintage & thrift"
+      }
     },
-    "video": {
-      "type": "video"
+    "163945252291bed66f": {
+      "type": "weekly-picks",
+      "settings": {
+        "collection": "weekly-picks"
+      }
     },
-    "multi_column": {
-      "type": "multicolumn",
+    "1639452526fab02d09": {
+      "type": "collection-grid",
       "blocks": {
-        "column1": {
-          "type": "column"
+        "b10b15f9-24da-4dc0-aa6e-c9464848a81e": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops"
+          }
         },
-        "column2": {
-          "type": "column"
+        "6dda0d8a-808c-49ee-902e-b5310421bb89": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
         },
-        "column3": {
-          "type": "column"
+        "fd902eb9-607b-4550-ae82-c87e75e8b2ce": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "9ff5bfa6-a4e4-4734-b820-c21fd415abe0": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim"
+          }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+        "b10b15f9-24da-4dc0-aa6e-c9464848a81e",
+        "6dda0d8a-808c-49ee-902e-b5310421bb89",
+        "fd902eb9-607b-4550-ae82-c87e75e8b2ce",
+        "9ff5bfa6-a4e4-4734-b820-c21fd415abe0"
+      ],
+      "settings": {
+        "header": ""
+      }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "163945244944ece7dd",
+    "163945252291bed66f",
+    "1639452526fab02d09"
   ]
 }
