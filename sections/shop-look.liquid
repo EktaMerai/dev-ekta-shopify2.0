@@ -1,6 +1,7 @@
 {{ 'section-shoplook.css' | asset_url | stylesheet_tag }}
-<div class="main_shop_thelook">
-    <h2 class="shop_look__header">shop the look</h2>
+
+<div class="main_shop_thelook page-width">
+    <h1 class="shop_look__header">shop the look</h2>
     <div class="shop_look">
         <div class="shop_look_img_block">
             {% for product in section.settings.collection.products %}   
