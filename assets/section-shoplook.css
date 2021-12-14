@@ -56,9 +56,9 @@
         display: contents;
     }
     .imgs_1 {
-        position: relative;
-        bottom: -50%;
-        left: 20%;
+        position: unset;
+        bottom: unset;
+        left: unset;
     }
     .imgs_2 {
         position: unset;
