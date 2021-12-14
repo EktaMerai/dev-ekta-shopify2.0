@@ -8,6 +8,7 @@
     margin: 0 auto;
     border: 3px solid #000;
     border-radius: 7px;
+    outline: 4px solid #E8EFFA;
 }
 .shop_look_right_block {
     display: flex;
@@ -46,4 +47,32 @@
     position: relative;
     left: 61%;
     top: -7%;
+}
+@media screen and (min-width:240px) and (max-width:767px) { 
+    .shop_look_img_block img {
+        width: 100%;
+    }
+    .shop_look_img_block {
+        display: contents;
+    }
+    .imgs_1 {
+        position: relative;
+        bottom: -50%;
+        left: 20%;
+    }
+    .imgs_2 {
+        position: unset;
+        left: unset;
+    }
+    .imgs_3 {
+        position: unset;
+        left: unset;
+        bottom: unset;
+        z-index: unset;
+    }
+    .imgs_4 {
+        position: unset;
+        left: unset;
+        top: unset;
+    }
 }
