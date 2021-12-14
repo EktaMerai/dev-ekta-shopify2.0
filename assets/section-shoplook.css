@@ -3,8 +3,8 @@
 }
 .shop_look {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 55%;
+    grid-template-columns: 1fr 1fr;
+    width: 62%;
     margin: 0 auto;
 }
 .shop_look_right_block {
