@@ -6,6 +6,8 @@
     grid-template-columns: 1fr 1fr;
     width: 62%;
     margin: 0 auto;
+    border: 3px solid #000;
+    border-radius: 7px;
 }
 .shop_look_right_block {
     display: flex;
