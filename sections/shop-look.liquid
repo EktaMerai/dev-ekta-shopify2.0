@@ -5,7 +5,7 @@
     <div class="shop_look">
         <div class="shop_look_img_block">
             {% for product in section.settings.collection.products %}   
-             <img src="{{ product.images[0].src | img_url: 'medium' }}" class="imgs_"{{ forloop.index }}>
+             <img src="{{ product.images[0].src | img_url: 'medium' }}" class="imgs_{{ forloop.index }}">
             {% endfor %}     
         </div>
         <div class="shop_look_product">
