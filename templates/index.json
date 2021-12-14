@@ -118,49 +118,12 @@
       "settings": {
         "header": ""
       }
-    },
-    "1639454869697b3108": {
-      "type": "apps",
-      "blocks": {
-        "ed39d798-f8b6-458c-b086-fe76047b42b7": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080,
-            "show_header": true
-          }
-        }
-      },
-      "block_order": [
-        "ed39d798-f8b6-458c-b086-fe76047b42b7"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "163945490844364c2f": {
-      "type": "apps",
-      "disabled": true,
-      "blocks": {
-        "d2f62343-387c-422a-a501-69258f1b2197": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "d2f62343-387c-422a-a501-69258f1b2197"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "image_banner",
     "163945244944ece7dd",
     "163945252291bed66f",
-    "1639452526fab02d09",
-    "1639454869697b3108",
-    "163945490844364c2f"
+    "1639452526fab02d09"
   ]
 }
