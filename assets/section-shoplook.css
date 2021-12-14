@@ -75,4 +75,15 @@
         left: unset;
         top: unset;
     }
+    .shop_look{
+        width: 100%;
+    }
+    .shop_look_product {
+        margin: 0;
+        position: relative;
+        right: -26%;
+        top: -59%;
+        -ms-transform: translateY(57%);
+        transform: translateY(57%);
+    }
 }
