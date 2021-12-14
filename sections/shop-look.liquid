@@ -1,0 +1,35 @@
+{{ 'section-shoplook.css' | asset_url | stylesheet_tag }}
+<div class="main_shop_thelook">
+    <h2 class="shop_look__header">shop the look</h2>
+    <div class="shop_look">
+        <div class="shop_look_img_block">
+            {% for product in section.settings.collection.products %}   
+             <img src="{{ product.images[0].src | img_url: 'medium' }}">
+            {% endfor %}     
+        </div>
+        <div class="shop_look_product">
+            {% for product in section.settings.collection.products %}   
+              <p class="shop_look_product_title"> {{ product.title }}</p>
+              <p class="shop_look_product_price"> {{ product.price }}</p>
+            {% endfor %} 
+        </div>
+    </div>
+
+</div>
+{% schema %}
+{
+    "name":"Shop look",
+    "section": [
+        {
+            "type" : "collection",
+            "id": "collection",
+            "label": "Shop the look"
+        }
+    ],
+    "present" : [
+        {
+          "name" :  "Shop look" 
+        }
+    ]
+}
+{% endschema %}
